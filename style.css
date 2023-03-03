@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "ariel";
+    line-height: 2.0;
+
+}
+
+.page-title {
+    text-align: center;
+    margin: 1em 0;
+    color: #df73ea;
+    font: italic 3.5em "Fira Sans", serif;
+    text-shadow: 2px 4px 4px rgba(133, 168, 231, 0.6);
+}
+
+.search-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+
+.book-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 25px;
+}
+
+.search-input {
+    width: 40%;
+    padding: 0.5em;
+    font-size: 1em;
+    border: 1.5px solid #ccc;
+    border-right: none;
+    border-radius: 5px 0 0 5px;
+}
+
+.search-button {
+    padding: 0.5em;
+    font-size: 1em;
+    background-color: #df73ea;
+    color: #090909;
+    border: 1px solid #f4d8f6;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
